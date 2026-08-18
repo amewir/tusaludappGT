@@ -1,0 +1,25 @@
+# Node modules y dependencias de frontend
+node_modules/
+dist/
+.vite/
+
+# Python y backend
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Multimedia de prueba
+pythonap/media/recetas_pdfs/*
+!pythonap/media/recetas_pdfs/.gitkeep
+
+# Entornos virtuales varios
+*.egg-info/
+.idea/
+.vscode/
