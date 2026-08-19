@@ -131,7 +131,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             />
             <div>
               <h1 className="text-lg font-bold text-gob-blue leading-none">TUSALUDgt</h1>
-              <span className="text-[9px] font-semibold text-gob-celeste tracking-widest uppercase">Gobierno Abierto</span>
+              <span className="text-[9px] font-semibold text-gob-celeste tracking-widest uppercase">Portal de Salud</span>
             </div>
           </div>
 
@@ -199,9 +199,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           {children}
         </main>
 
-        {/* Footer Institucional Obligatorio */}
+        {/* Footer */}
         <footer className="w-full py-6 px-6 bg-white/40 border-t border-white/40 backdrop-blur-md text-center text-xs text-slate-500 font-semibold tracking-wide mt-auto">
-          Diseñada por Angel Hernández - Comisión Presidencial de Gobierno Abierto y Electrónico.
+          Diseñada por Angel Hernández
         </footer>
       </div>
 

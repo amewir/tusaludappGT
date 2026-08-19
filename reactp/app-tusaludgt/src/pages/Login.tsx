@@ -54,7 +54,7 @@ const Login: React.FC = () => {
           TUSALUDgt
         </h1>
         <p className="text-slate-400 text-xs mt-1.5 font-bold uppercase tracking-widest">
-          Comisión Presidencial de Gobierno Abierto
+          Portal de Salud
         </p>
       </div>
 
@@ -120,7 +120,7 @@ const Login: React.FC = () => {
       </div>
 
       <footer className="mt-8 text-center text-[10px] text-slate-400 font-semibold tracking-wide">
-        Diseñada por Angel Hernández - Comisión Presidencial de Gobierno Abierto y Electrónico.
+        Diseñada por Angel Hernández
       </footer>
     </div>
   );

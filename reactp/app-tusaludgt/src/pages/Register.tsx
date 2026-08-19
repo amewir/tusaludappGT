@@ -123,7 +123,7 @@ const Register: React.FC = () => {
           TUSALUDgt
         </h1>
         <span className="text-[9px] font-bold text-slate-400 uppercase tracking-widest block mt-0.5">
-          Comisión Presidencial de Gobierno Abierto
+          Portal de Salud
         </span>
       </div>
 
@@ -345,7 +345,7 @@ const Register: React.FC = () => {
       </div>
 
       <footer className="mt-8 text-center text-[10px] text-slate-400 font-semibold tracking-wide">
-        Diseñada por Angel Hernández - Comisión Presidencial de Gobierno Abierto y Electrónico.
+        Diseñada por Angel Hernández
       </footer>
     </div>
   );

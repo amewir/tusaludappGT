@@ -595,9 +595,9 @@ const Dashboard: React.FC = () => {
               {/* Recipes Card */}
               <div className="bg-white/70 backdrop-blur-xl border border-white/40 rounded-3xl p-6 shadow-sm shadow-indigo-50/50 hover:scale-[1.01] hover:shadow-md transition-all duration-300 ease-out">
                 <h3 className="text-xl font-bold text-gob-blue border-b border-slate-100 pb-3 flex justify-between items-center">
-                  <span>Trámites Firmados Digitalmente (GAE)</span>
+                  <span>Trámites Firmados Digitalmente</span>
                   <span className="text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 px-2.5 py-0.5 rounded-full">
-                    GAE
+                    DIGITAL
                   </span>
                 </h3>
 
@@ -1039,17 +1039,16 @@ const Dashboard: React.FC = () => {
               
               {/* Watermark */}
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.03] select-none">
-                <span className="text-[120px] font-black rotate-45 text-gob-blue">GAE</span>
+                <span className="text-[120px] font-black rotate-45 text-gob-blue">TUSALUDgt</span>
               </div>
 
-              {/* Logo / Header de Gobierno */}
+              {/* Logo / Header */}
               <div className="flex justify-between items-start border-b-2 border-gob-blue/30 pb-4 mb-4">
                 <div className="flex items-center gap-3">
                   <img src="/logo.jpeg" alt="Logo TUSALUDgt" className="h-12 w-auto object-contain rounded-xl shadow-sm border border-slate-100" />
                   <div>
                     <h4 className="text-sm font-black text-gob-blue uppercase leading-none tracking-wide">TUSALUDgt</h4>
-                    <span className="text-[8px] font-bold text-slate-400 tracking-widest uppercase">Gobierno de la República de Guatemala</span>
-                    <p className="text-[7px] font-semibold text-gob-celeste uppercase">Comisión Presidencial de Gobierno Abierto y Electrónico</p>
+                    <span className="text-[8px] font-bold text-slate-400 tracking-widest uppercase">Aplicación de Salud</span>
                   </div>
                 </div>
                 <div className="text-right">

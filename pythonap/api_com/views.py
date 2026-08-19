@@ -23,7 +23,7 @@ def chat_asistente(request):
     if any(k in mensaje for k in saludo_keywords):
         respuesta = (
             "¡Hola! Te damos una cálida bienvenida a TUSALUDgt. "
-            "Somos el portal oficial de la Comisión Presidencial de Gobierno Abierto y Electrónico dedicado a tu cuidado y salud paliativa. "
+            "Somos un portal dedicado a tu cuidado y salud paliativa. "
             "¿En qué podemos apoyarte hoy? Estoy aquí para escucharte."
         )
     elif any(k in mensaje for k in despedida_keywords):
